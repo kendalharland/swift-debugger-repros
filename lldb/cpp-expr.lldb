@@ -1,0 +1,7 @@
+target create .build/x86_64-unknown-windows-msvc/debug/repros.exe
+breakpoint set --file cxxLibrary.cpp --line 9
+run
+p this
+p foo
+continue
+exit
