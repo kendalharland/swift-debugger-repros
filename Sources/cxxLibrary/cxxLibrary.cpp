@@ -8,3 +8,8 @@ A::A() {
 int A::get_foo() {
   return foo;
 }
+
+
+void A::crash() {
+  throw "crashing";
+}
