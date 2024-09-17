@@ -1,3 +1,4 @@
 try ReproCrashEvaluatingCppExpr()
 try ReproCrashDuringStepOver()
-try ReproNoCppStackFrames()
+try ReproCrashPassingBaseClassMemberFn()
+// try ReproNoCppStackFrames()
