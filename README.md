@@ -1,3 +1,5 @@
+Swift Version: 6.0
+
 First do `swift run` to build the project, then run the following commands to reproduce an lldb failure:
 
 Scenario: Crash when evaluating a C++ expression
